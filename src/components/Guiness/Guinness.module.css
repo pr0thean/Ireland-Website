@@ -1,0 +1,43 @@
+.Content {
+    background-color: #080904;
+    color: white;
+}
+.Content h1 {
+    color: #B19345;
+    padding: 10px;
+}
+
+.TextImg {
+    display: flex;
+}
+
+.Text {
+    text-align: justify;
+    padding: 0 20px 0 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.Content img {
+    padding-bottom: 20px;
+}
+
+.Arrow {
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+}
+.Arrow i {
+    color: #B19345;
+    font-size: 30px;
+    margin: 20px;
+}
+.Arrow i:hover {
+    color: white;
+}
+
+@media(max-width: 1110px) {
+    .TextImg {
+      display: inline-block;
+    }
+  }

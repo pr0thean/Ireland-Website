@@ -1,0 +1,15 @@
+.Logo {
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    padding: 10px;
+}
+.Logo span {
+    font-size: 70px;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}

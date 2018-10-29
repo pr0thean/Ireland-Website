@@ -1,0 +1,35 @@
+.Content {
+    background-color: rgb(160, 64, 0);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {  
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    padding: 2px;
+    margin: 10px;
+}
+button[name=send] {
+    width: 150px;
+    background-color: #169B62;
+    color: white;
+}
+button[name=send]:active:hover {
+    background-color: #058A51;
+}
+button[name=send]:disabled {
+    cursor: not-allowed;
+    background-color: rgb(77, 77, 77);
+}
+
+.Content p {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,21 @@
+header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c9c9c9;
+    padding: 5px;
+}
+
+.headerItems {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width: 1110px) {
+    .Music {
+      display: none;
+    }
+    .headerItems {
+      display: inline-block;
+      width: 320px;
+    }
+}

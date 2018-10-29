@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+  transition: all 1.5s;
+}
+
+.Content {
+  margin: 20px auto 20px auto;
+  width: 60vw;
+  min-width: 500px;
+  opacity: 0.88;
+}
+
+@media(max-width: 1660px) {
+  .Content {
+    width: 70vw;
+  }
+}
+@media(max-width: 1440px) {
+  .Content {
+    width: 80vw;
+  }
+}
+@media(max-width: 1240px) {
+  .Content {
+    width: 90vw;
+  }
+}
+@media(max-width: 1110px) {
+  .Content {
+    width: 57vw;
+  }
+}
+@media(max-width: 500px) {
+  .App {
+    background-image: url("./assets/img/irelandMobile.jpg") !important;
+    width: initial;
+  }
+}
