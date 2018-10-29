@@ -24,8 +24,7 @@
 
 .Arrow {
     text-align: left;
-    position: absolute;
-    bottom: 20px;
+    margin-left:-20px;
 }
 .Arrow i {
     color: #B19345;

@@ -16,13 +16,12 @@ const Guinness = () => {
                     <p>The Guinness Storehouse explains the history of Beer. The story is told through various interactive exhibition areas including ingredients, brewing, transport, cooperage, advertising and sponsorship.</p>
 
                     <p>At the base of the atrium lies a copy of the 9,000 year lease signed by Arthur Guinness on the brewery site. In the Perfect Pint bar, visitors may pour their own pint of Guinness. The Brewery Bar on the fifth floor offers Irish cuisine, using Guinness both in the cooking and as an accompaniment to food.</p>
+               
+                    <p className={css.Arrow}><NavLink to=""><i className="icon-left"></i></NavLink></p>
                 </div>  
 
                 <img alt="guinness" src={guinnessImg} />
             </div>
-            
-
-            <p className={css.Arrow}><NavLink to=""><i className="icon-left"></i></NavLink></p>
         </div>
     );
 }
